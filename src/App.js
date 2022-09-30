@@ -4,8 +4,10 @@ import "./style.css";
  const App = () => {
   return (
     <div className="ui container">
-      
-      <p></p>
+    <div>Select a language
+      <i className="flag us"/>
+      <i className="flag nl"/>
+    </div>
     </div>
   );
 }
